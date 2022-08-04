@@ -1,0 +1,109 @@
+body {
+  background-color: #fad9c1 !important;
+  color: #fe9c8f !important;
+  font-size: larger;
+  font-weight: bold;
+}
+/* Name Marquee stuff */
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 50px;
+  overflow-x: hidden;
+  font-family: "Courier New", monospace;
+  color: #fe9c8f;
+}
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/*Navigation hamburger stuff*/
+.nav {
+  overflow: hidden;
+  background-color: #fe9c8f ;
+  position: relative;
+  color: white;
+ 
+  text-align: right;
+}
+.nav #myLinks {
+  display: none;
+}
+.nav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.nav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #fec8c1;
+  color: white;
+  text-align: left;
+}
+
+/* Intro card stuff*/
+/* .card {
+  width: 70rem;
+  height: 30rem;
+  border-style:solid;
+  border-width: 10px;
+  border-radius: 2%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+} */
+
+body > div.card{
+  width: 70rem;
+  flex-direction: row;
+  border-style:solid;
+  border-width: 5px;
+  color: #fe9c8f;
+  border-color: #fe9c8f;
+  margin-top: 5px;
+  align-self: center;
+}
+.card img {
+  width: 30%;
+}
+
+/* TODO: Fix this */
+
+body > div.card > img {
+  /* margin: 10%; */
+  border-radius: 10%;
+  width: 30%;
+} 
+
+.card-group{
+  display: flex;
+}
+
+
