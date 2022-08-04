@@ -80,15 +80,16 @@ body {
   margin-top: 5px;
 } */
 
-body > div.card{
-  width: 70rem;
+
+
+body > div.col-sm-6.col-md-9.col-lg-9 > div{
   flex-direction: row;
   border-style:solid;
   border-width: 5px;
   color: #fe9c8f;
   border-color: #fe9c8f;
   margin-top: 5px;
-  align-self: center;
+  background-color: #fad9c1;
 }
 .card img {
   width: 30%;
@@ -103,7 +104,15 @@ body > div.card > img {
 } 
 
 .card-group{
-  display: flex;
+  display: flex;  
 }
 
+body > div.card-group > div.card{
+  background-color: #fad9c1;
+  border-color: #fe9c8f;
+  margin: 5px;
+}
 
+body > div.card-group > div:nth-child(1) > img{
+  width: auto;
+}
