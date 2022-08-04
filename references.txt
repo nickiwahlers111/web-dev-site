@@ -1,3 +1,9 @@
 //nav bar hamburger
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
+//colors
+#fe9c8f • #feb2a8 • #fec8c1 • #fad9c1 • #f9caa7
+https://digitalsynopsis.com/design/beautiful-color-palettes-combinations-schemes/
+
+//form
+https://getbootstrap.com/docs/4.0/components/forms/
