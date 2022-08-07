@@ -202,7 +202,7 @@ body > div.resume{
   background: linear-gradient(-45deg, #23a6d5, #ee7752);
   margin-right: 300px;
   margin-left: 300px;
-  margin-top: 500px;
+ 
   margin-bottom: 50px;
   border-color: #23a6d5;
   border-width: 10px;
@@ -232,7 +232,8 @@ body > div.test-label{
 
   margin-right: 50px;
   margin-left: 50px;
-
+  margin-top: 500px;
+  margin-bottom: 50px;
 }
 
 #resume{
