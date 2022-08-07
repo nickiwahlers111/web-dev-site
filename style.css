@@ -152,13 +152,13 @@ body > div.card-group > div:nth-child(1) > img{
   display: flex;
   flex-direction: row;
 }
-#resume > div:nth-child(3) > div > img{
+body > div.resume > div > div:nth-child(2) > div > img{
   height: 50px;
   width: 50px;
   right: 0;
 }
 
-#resume > div:nth-child(4) > div > img{
+body > div.resume > div > div:nth-child(3) > div > img{
   height: 50px;
   width: 88px;
 }
@@ -166,7 +166,7 @@ body > div.card-group > div:nth-child(1) > img{
   display: flex;
   flex-direction: row;
 }
-#resume > div:nth-child(5) > div > img{
+body > div.resume > div > div:nth-child(4) > div > img{
   height: 50px;
   width: 88px;
   margin-left: 10px;
