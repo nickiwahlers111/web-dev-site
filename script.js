@@ -24,5 +24,6 @@ function handleSubmit(event) {
   console.log("EMAIL: "+email);
   // console.log("MESSAGE: " + message);
 
-
 }
+
+fartscroll();
