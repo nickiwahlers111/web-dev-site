@@ -14,7 +14,8 @@ body {
   height: 50px;
   overflow-x: hidden;
   font-family: "Courier New", monospace;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.7rem;
   color: #FF68B2;
 }
 .track {
@@ -77,28 +78,30 @@ body {
 body > div.container{
   display: flex;
   flex-direction: row;
-  
+  margin-top: 200px;
+  margin-bottom: 700px;
 }
 body > div.container > div.col-sm-6.col-md-9.col-lg-9 > div{
 
   flex-direction: row;
   border-style:solid;
-  border-width: 5px;
+  border-width: 10px;
   color: white;
   border-color: #68FFB5;
   margin-top: 5px;
   /* background-color: #040720; */
   background: linear-gradient(-45deg, #ee7752, #e73c7e);
 }
+
+
 body > div.container > div.col-sm-6.col-md-3.col-lg-3 > div{
   
   flex-direction: row;
   border-style:solid;
   border-width: 5px;
-  color: #fe9c8f;
+  color: white;
   border-color: #fe9c8f;
   margin-top: 5px;
-  /* background-color: #040720; */
   background: linear-gradient(-45deg, #23a6d5, #23d5ab);
 }
 
@@ -107,10 +110,16 @@ body > div.container > div.col-sm-6.col-md-3.col-lg-3 > div{
   width: 30%;
 }
 
-/* TODO: Fix this */
-
-
-
+#projects > div:nth-child(3) > div.card-body{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#projects > div:nth-child(1) > div.card-body{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 body > div.card > img {
   /* margin: 10%; */
   border-radius: 10%;
@@ -139,26 +148,66 @@ body > div.card-group > div:nth-child(1) > img{
   padding: 0;
 }
 
+#resume > div:nth-child(3) > div {
+  display: flex;
+  flex-direction: row;
+}
+#resume > div:nth-child(3) > div > img{
+  height: 50px;
+  width: 50px;
+  right: 0;
+}
+
+#resume > div:nth-child(4) > div > img{
+  height: 50px;
+  width: 88px;
+}
+#resume > div:nth-child(4) > div {
+  display: flex;
+  flex-direction: row;
+}
+#resume > div:nth-child(5) > div > img{
+  height: 50px;
+  width: 88px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+#resume > div:nth-child(5) > div {
+  display: flex;
+  flex-direction: row;
+}
 #resume > div.resume-head{
   text-align: center;
 }
 body > div.resume{
   border-color: black;
-  border-width: 2px;;
+  border-width: 2px;
   margin: 50px;
   background-color: white;
+  margin-bottom: 500px;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: #ee7752;
+  border-style: solid;
+  padding: 10px;
 }
 
-/* #resume{
-  margin-top: 500px;
-} */
+
+
 
 #form{
+  
+  background-color: #ee7752;
   margin-right: 300px;
   margin-left: 300px;
-  margin-top: 50px;
+  margin-top: 500px;
   margin-bottom: 50px;
-  /* background-color: white; */
-  border-color: black;
+  border-color: #23a6d5;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  color: white;
+  
 }
 
