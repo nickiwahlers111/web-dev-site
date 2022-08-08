@@ -31,7 +31,7 @@ function handleSubmit(event) {
   
   // console.log("======FORM SUBMISSION=====");
   console.log("EMAIL: "+email);
-  console.log("MESSAGE: " + message);
+  console.log("COMPLIMENTS: " + message);
   console.log("Preference: "+ preference);
 
 }
