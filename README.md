@@ -1,12 +1,10 @@
 # web-dev-site
 
-This is my professional resume site for Intro to Web Dev. 
-It is hosted at 
+This is my professional resume site for Intro to Web Dev.
+It is hosted at
 https://nickiwahlers111.github.io/web-dev-site/
 
 Alternatively, you could clone my repository and run the index.html with LiveServer.
-
-
 
 REFERENCES:
 <br> https://stackoverflow.com/questions/21233033/how-can-i-create-a-marquee-effect
@@ -15,4 +13,5 @@ REFERENCES:
 <br> https://fontawesome.com/v5/icons/font-awesome-logo-full?s=solid
 <br> https://getbootstrap.com/docs/4.0/components/card/
 <br> https://getbootstrap.com/docs/4.0/components/carousel/
-^^ this last one was HUGE, I really used Bootstraps carousel exammple.
+<br> https://stackoverflow.com/questions/34577569/how-i-can-modularize-static-html-file
+<br> https://dev.to/andreygermanov/modular-html-19o6

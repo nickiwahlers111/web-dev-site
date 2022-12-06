@@ -7,7 +7,7 @@ body {
   font-weight: bold;
 }
 /* Name Marquee stuff */
-.marquee {
+body > div.header > div {
   position: relative;
   width: 100vw;
   max-width: 100%;
@@ -18,6 +18,7 @@ body {
   font-size: 1.7rem;
   color: #FF68B2;
 }
+
 .track {
   position: absolute;
   white-space: nowrap;
@@ -93,7 +94,6 @@ body > div.container > div.col-sm-6.col-md-9.col-lg-9 > div{
   background: linear-gradient(-45deg, #ee7752, #e73c7e);
 }
 
-
 body > div.container > div.col-sm-6.col-md-3.col-lg-3 > div{
   
   flex-direction: row;
@@ -126,11 +126,11 @@ body > div.card > img {
   width: 30%;
 } 
 
-.card-group{
+.project-cards{
   display: flex;  
 }
 
-body > div.card-group > div.card{
+body > div.project-cards > div.card{
   background-color: white;
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   border-color: #68FFB5;
@@ -139,7 +139,7 @@ body > div.card-group > div.card{
 }
 
 
-body > div.card-group > div:nth-child(1) > img{
+body > div.project-cards > div:nth-child(1) > img{
   width: auto;
 }
 

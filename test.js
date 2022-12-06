@@ -17,6 +17,6 @@ injectHTML("components/aboutme.html", document.querySelector(".container"));
 injectHTML("components/resume.html", document.querySelector(".resume"));
 injectHTML(
   "components/projectcards.html",
-  document.querySelector(".card-group")
+  document.querySelector(".project-cards")
 );
 injectHTML("components/form.html", document.querySelector(".form-container"));
