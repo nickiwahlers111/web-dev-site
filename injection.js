@@ -1,3 +1,6 @@
+// Function to inject HTML onto main document
+//I included this so that the index.html could be just a series of divs
+//this function allows me to modularize components and inject them to the main page
 async function injectHTML(filePath, elem) {
   try {
     const response = await fetch(filePath);
